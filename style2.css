@@ -1,0 +1,54 @@
+@font-face {
+    font-family: myFont;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+h2{
+    font-family: myFont;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+body{
+    background-color: black;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+p{
+    color: blanchedalmond;
+    font-family: myFont;
+    font-size: 20px;
+}
+.img{
+    border: 1px solid white;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.img p{
+    text-align: center;
+}
+.img:hover{
+    box-shadow: 5px 5px 15px 5px #888484;
+}
+h2::after{
+    content: " ";
+    background-image: url(toppng.com-free-vector-shapes-png-ornament-shapes-vector-965x216.png);
+    width: 250px;
+    height: 100px;
+    background-size: 250px;
+    background-position:contain;
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}

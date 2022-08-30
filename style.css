@@ -62,7 +62,6 @@ h1::after {
 .scnd-face .pip:nth-of-type(2) {
   align-self: flex-end;
 }
-
 .thrd-face {
   width: 80px;
   height: 80px;
@@ -147,7 +146,6 @@ h1::after {
   display: flex;
   justify-content: center;
 }
-
 .butn {
   width: 100px;
   height: 50px;
